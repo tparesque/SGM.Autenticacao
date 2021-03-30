@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace SGM.Autenticacao.Api.Controllers
 {
     [EnableCors("ApiCorsPolicy")]
-    [Route("api/authentication")]
+    [Route("api/autenticacao")]
     [ApiController]
     public class AuthenticationController : ControllerBase
     {

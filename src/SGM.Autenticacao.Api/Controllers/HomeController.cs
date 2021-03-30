@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace SGM.Autenticacao.Api.Controllers
 {
     [EnableCors("ApiCorsPolicy")]
-    [Route("api/home")]
+    [Route("api/autenticacao/home")]
     [Authorize]
     [ApiController]
     public class HomeController : Controller

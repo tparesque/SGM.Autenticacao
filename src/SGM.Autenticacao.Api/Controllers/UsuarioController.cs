@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace SGM.Autenticacao.Api.Controllers
 {
-    [EnableCors("ApiCorsPolicy")]    
-    [Route("api/usuarios")]
+    [EnableCors("ApiCorsPolicy")]
+    [Route("api/autenticacao/usuarios")]
     [Authorize]
     [ApiController]
     public class UsuarioController : Controller
