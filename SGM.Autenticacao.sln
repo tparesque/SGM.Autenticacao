@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGM.Autenticacao.Domain", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGM.Autenticacao.Repository", "src\SGM.Autenticacao.Repository\SGM.Autenticacao.Repository.csproj", "{18FD12E6-61A2-484D-9393-255F16D1CC98}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{C920FAD1-9E0C-48D0-8C44-9C0BA4D3617B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
