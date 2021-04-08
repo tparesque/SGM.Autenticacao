@@ -48,7 +48,7 @@ namespace SGM.Autenticacao.Api.Controllers
         [Authorize(Roles = "Administrador,Gestor,Usuario,Funcionário")]
         [HttpPut("{id}")]
         [ProducesResponseType(typeof(ResultDto<UsuarioDto>), 200)]
-        public async Task<ResultDto<UsuarioDto>> Put(int id, [FromBody] UsuarioDto usuarioDto)
+        public async Task<ResultDto<UsuarioDto>> Put(string id, [FromBody] UsuarioDto usuarioDto)
         {
             return await _usuarioService.Update(usuarioDto);
         }
